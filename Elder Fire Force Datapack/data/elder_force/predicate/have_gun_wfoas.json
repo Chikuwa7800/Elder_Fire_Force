@@ -1,0 +1,16 @@
+{
+    "condition": "entity_properties",
+    "entity":"this",
+    "predicate": {
+        "slots": {
+            "weapon.mainhand": {
+                "items":"warped_fungus_on_a_stick",
+                "predicates": {
+                    "custom_data":{
+                        "item_tag": "elder_force_gun"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#minecraft:planks",
+    "minecraft:iron_nugget",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "acacia_boat"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_damage": 621,
+                "minecraft:item_model": "elder_force:bullets/wooden_cartridge",
+                "minecraft:item_name": {
+                  "translate": "item.match_lock"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item_lore.match_lock",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:swing_animation": {
+                  "type": "none",
+                  "duration": 1
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:unbreakable"
+                  ]
+                },
+                "minecraft:custom_model_data": {
+                  "flags": [
+                    true,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "item_tag": "elder_force_gun",
+                  "ammo": 0,
+                  "item_type": "match_lock",
+                  "condition": "no_ammo",
+                  "reloading": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

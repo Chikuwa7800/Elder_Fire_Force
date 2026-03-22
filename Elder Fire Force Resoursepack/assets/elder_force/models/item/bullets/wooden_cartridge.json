@@ -1,0 +1,8 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "0": "elder_force:item/bullets/wooden_cartridge",
+        "1": "elder_force:item/bullets/wooden_cartridge",
+        "particle": "elder_force:item/bullets/wooden_cartridge"
+    }
+}

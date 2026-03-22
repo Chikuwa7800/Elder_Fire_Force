@@ -1,0 +1,1 @@
+item modify entity @s weapon.mainhand elder_force:match_lock/reload_canceled_in_1

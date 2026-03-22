@@ -1,0 +1,1 @@
+execute if entity @s[tag=eff.normal_bullet] run function elder_force:entity/bullet/main

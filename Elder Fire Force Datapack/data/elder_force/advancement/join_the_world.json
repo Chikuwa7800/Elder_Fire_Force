@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:location"
+    }
+  },
+  "rewards": {
+    "function": "elder_force:set_entity_id"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "message_id": "death.attack.shot",
+    "effects": "hurt",
+    "scaling": "when_caused_by_living_non_player",
+    "exhaustion": 0.25
+}

@@ -1,0 +1,938 @@
+{
+    "model": {
+        "type":"condition",
+        "property": "keybind_down",
+        "keybind": "key.sprint",
+        "on_true": {
+            "type": "select",
+            "property": "display_context",
+            "cases": [
+                {
+                    "when":"firstperson_lefthand",
+                    "model": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "custom_data",
+                        "value": {
+                            "ammo":0,
+                            "reloading": false
+                        },
+                        "on_true": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/dash_no_ammo"
+                        },
+                        "on_false": {
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "custom_data",
+                            "value": {
+                               "reloading": false
+                            },
+                            "on_true": {
+                                "type": "model",
+                                "model": "elder_force:item/guns/match_lock/dash"
+                            },
+                            "on_false": {
+                "type": "condition",
+            "property": "custom_model_data",
+            "index": 5,
+            "on_true": {
+                "type": "select",
+            "property": "display_context",
+            "cases": [
+                {
+                    "when":"firstperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                },
+                {
+                    "when":"firstperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                },
+                {
+                    "when":"thirdperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                },
+                {
+                    "when":"thirdperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                }
+            ],
+            "fallback": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            },
+            "on_false": {
+                "type": "condition",
+            "property": "custom_model_data",
+            "index": 6,
+            "on_true": {
+                "type": "select",
+            "property": "display_context",
+            "cases": [
+                {
+                    "when":"firstperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                },
+                {
+                    "when":"firstperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                },
+                {
+                    "when":"thirdperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                },
+                {
+                    "when":"thirdperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                }
+            ],
+            "fallback": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            },
+            "on_false": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            }
+            }
+                        }
+                    }
+                },
+                {
+                    "when":"firstperson_righthand",
+                    "model": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "custom_data",
+                        "value": {
+                            "ammo":0,
+                            "reloading": false
+                        },
+                        "on_true": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/dash_no_ammo"
+                        },
+                        "on_false": {
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "custom_data",
+                            "value": {
+                               "reloading": false
+                            },
+                            "on_true": {
+                                "type": "model",
+                                "model": "elder_force:item/guns/match_lock/dash"
+                            },
+                            "on_false": {
+                "type": "condition",
+            "property": "custom_model_data",
+            "index": 5,
+            "on_true": {
+                "type": "select",
+            "property": "display_context",
+            "cases": [
+                {
+                    "when":"firstperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                },
+                {
+                    "when":"firstperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                },
+                {
+                    "when":"thirdperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                },
+                {
+                    "when":"thirdperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                }
+            ],
+            "fallback": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            },
+            "on_false": {
+                "type": "condition",
+            "property": "custom_model_data",
+            "index": 6,
+            "on_true": {
+                "type": "select",
+            "property": "display_context",
+            "cases": [
+                {
+                    "when":"firstperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                },
+                {
+                    "when":"firstperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                },
+                {
+                    "when":"thirdperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                },
+                {
+                    "when":"thirdperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                }
+            ],
+            "fallback": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            },
+            "on_false": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            }
+            }
+                        }
+                    }
+                },
+                {
+                    "when":"thirdperson_lefthand",
+                    "model": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "custom_data",
+                        "value": {
+                            "ammo":0,
+                            "reloading": false
+                        },
+                        "on_true": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/dash_no_ammo"
+                        },
+                        "on_false": {
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "custom_data",
+                            "value": {
+                               "reloading": false
+                            },
+                            "on_true": {
+                                "type": "model",
+                                "model": "elder_force:item/guns/match_lock/dash"
+                            },
+                            "on_false": {
+                "type": "condition",
+            "property": "custom_model_data",
+            "index": 5,
+            "on_true": {
+                "type": "select",
+            "property": "display_context",
+            "cases": [
+                {
+                    "when":"firstperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                },
+                {
+                    "when":"firstperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                },
+                {
+                    "when":"thirdperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                },
+                {
+                    "when":"thirdperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                }
+            ],
+            "fallback": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            },
+            "on_false": {
+                "type": "condition",
+            "property": "custom_model_data",
+            "index": 6,
+            "on_true": {
+                "type": "select",
+            "property": "display_context",
+            "cases": [
+                {
+                    "when":"firstperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                },
+                {
+                    "when":"firstperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                },
+                {
+                    "when":"thirdperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                },
+                {
+                    "when":"thirdperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                }
+            ],
+            "fallback": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            },
+            "on_false": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            }
+            }
+                        }
+                    }
+                },
+                {
+                    "when":"thirdperson_righthand",
+                    "model": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "custom_data",
+                        "value": {
+                            "ammo":0,
+                            "reloading": false
+                        },
+                        "on_true": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/dash_no_ammo"
+                        },
+                        "on_false": {
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "custom_data",
+                            "value": {
+                               "reloading": false
+                            },
+                            "on_true": {
+                                "type": "model",
+                                "model": "elder_force:item/guns/match_lock/dash"
+                            },
+                            "on_false": {
+                "type": "condition",
+            "property": "custom_model_data",
+            "index": 5,
+            "on_true": {
+                "type": "select",
+            "property": "display_context",
+            "cases": [
+                {
+                    "when":"firstperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                },
+                {
+                    "when":"firstperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                },
+                {
+                    "when":"thirdperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                },
+                {
+                    "when":"thirdperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                }
+            ],
+            "fallback": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            },
+            "on_false": {
+                "type": "condition",
+            "property": "custom_model_data",
+            "index": 6,
+            "on_true": {
+                "type": "select",
+            "property": "display_context",
+            "cases": [
+                {
+                    "when":"firstperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                },
+                {
+                    "when":"firstperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                },
+                {
+                    "when":"thirdperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                },
+                {
+                    "when":"thirdperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                }
+            ],
+            "fallback": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            },
+            "on_false": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            }
+            }
+                        }
+                    }
+                }
+            ],
+            "fallback": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+        },
+        "on_false": {
+            "type": "condition",
+        "property": "custom_model_data",
+        "index": 0,
+        "on_true": {
+            "type": "select",
+            "property": "display_context",
+            "cases": [
+                {
+                    "when":"firstperson_lefthand",
+                    "model": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "custom_data",
+                        "value": {
+                            "ammo":0
+                        },
+                        "on_true": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/default_no_ammo"
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/default"
+                        }
+                    }
+                },
+                {
+                    "when":"firstperson_righthand",
+                    "model": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "custom_data",
+                        "value": {
+                            "ammo":0
+                        },
+                        "on_true": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/default_no_ammo"
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/default"
+                        }
+                    }
+                },
+                {
+                    "when":"thirdperson_lefthand",
+                    "model": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "custom_data",
+                        "value": {
+                            "ammo":0
+                        },
+                        "on_true": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/default_no_ammo"
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/default"
+                        }
+                    }
+                },
+                {
+                    "when":"thirdperson_righthand",
+                    "model": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "custom_data",
+                        "value": {
+                            "ammo":0
+                        },
+                        "on_true": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/default_no_ammo"
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/default"
+                        }
+                    }
+                }
+            ],
+            "fallback": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+        },
+        "on_false": {
+            "type": "condition",
+            "property": "custom_model_data",
+            "index": 1,
+            "on_true": {
+                "type": "select",
+            "property": "display_context",
+            "cases": [
+                {
+                    "when":"firstperson_lefthand",
+                    "model": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "custom_data",
+                        "value": {
+                            "ammo":0
+                        },
+                        "on_true": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/ready_to_shot_no_ammo"
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/ready_to_shot"
+                        }
+                    }
+                },
+                {
+                    "when":"firstperson_righthand",
+                    "model": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "custom_data",
+                        "value": {
+                            "ammo":0
+                        },
+                        "on_true": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/ready_to_shot_no_ammo"
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/ready_to_shot"
+                        }
+                    }
+                },
+                {
+                    "when":"thirdperson_lefthand",
+                    "model": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "custom_data",
+                        "value": {
+                            "ammo":0
+                        },
+                        "on_true": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/ready_to_shot_no_ammo"
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/ready_to_shot"
+                        }
+                    }
+                },
+                {
+                    "when":"thirdperson_righthand",
+                    "model": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "custom_data",
+                        "value": {
+                            "ammo":0
+                        },
+                        "on_true": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/ready_to_shot_no_ammo"
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/ready_to_shot"
+                        }
+                    }
+                }
+            ],
+            "fallback": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            },
+            "on_false": {
+            "type": "condition",
+            "property": "custom_model_data",
+            "index": 2,
+            "on_true": {
+                "type": "select",
+            "property": "display_context",
+            "cases": [
+                {
+                    "when":"firstperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/ready_to_shot_shot"
+                    }
+                },
+                {
+                    "when":"firstperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/ready_to_shot_shot"
+                    }
+                },
+                {
+                    "when":"thirdperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/ready_to_shot_shot"
+                    }
+                },
+                {
+                    "when":"thirdperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/ready_to_shot_shot"
+                    }
+                }
+            ],
+            "fallback": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            },
+            "on_false": {
+            "type": "condition",
+            "property": "custom_model_data",
+            "index": 3,
+            "on_true": {
+                "type": "select",
+            "property": "display_context",
+            "cases": [
+                {
+                    "when":"firstperson_lefthand",
+                    "model": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "custom_data",
+                        "value": {
+                            "ammo":0
+                        },
+                        "on_true": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/aim_no_ammo"
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/aim"
+                        }
+                    }
+                },
+                {
+                    "when":"firstperson_righthand",
+                    "model": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "custom_data",
+                        "value": {
+                            "ammo":0
+                        },
+                        "on_true": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/aim_no_ammo"
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/aim"
+                        }
+                    }
+                },
+                {
+                    "when":"thirdperson_lefthand",
+                    "model": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "custom_data",
+                        "value": {
+                            "ammo":0
+                        },
+                        "on_true": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/aim_no_ammo"
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/aim"
+                        }
+                    }
+                },
+                {
+                    "when":"thirdperson_righthand",
+                    "model": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "custom_data",
+                        "value": {
+                            "ammo":0
+                        },
+                        "on_true": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/aim_no_ammo"
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "elder_force:item/guns/match_lock/aim"
+                        }
+                    }
+                }
+            ],
+            "fallback": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            },
+            "on_false": {
+            "type": "condition",
+            "property": "custom_model_data",
+            "index": 4,
+            "on_true": {
+                "type": "select",
+            "property": "display_context",
+            "cases": [
+                {
+                    "when":"firstperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/aim_shot"
+                    }
+                },
+                {
+                    "when":"firstperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/aim_shot"
+                    }
+                },
+                {
+                    "when":"thirdperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/aim_shot"
+                    }
+                },
+                {
+                    "when":"thirdperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/aim_shot"
+                    }
+                }
+            ],
+            "fallback": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            },
+            "on_false": {
+                "type": "condition",
+            "property": "custom_model_data",
+            "index": 5,
+            "on_true": {
+                "type": "select",
+            "property": "display_context",
+            "cases": [
+                {
+                    "when":"firstperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                },
+                {
+                    "when":"firstperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                },
+                {
+                    "when":"thirdperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                },
+                {
+                    "when":"thirdperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_1"
+                    }
+                }
+            ],
+            "fallback": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            },
+            "on_false": {
+                "type": "condition",
+            "property": "custom_model_data",
+            "index": 6,
+            "on_true": {
+                "type": "select",
+            "property": "display_context",
+            "cases": [
+                {
+                    "when":"firstperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                },
+                {
+                    "when":"firstperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                },
+                {
+                    "when":"thirdperson_lefthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                },
+                {
+                    "when":"thirdperson_righthand",
+                    "model": {
+                        "type": "model",
+                        "model": "elder_force:item/guns/match_lock/reload_2"
+                    }
+                }
+            ],
+            "fallback": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            },
+            "on_false": {
+                "type": "model",
+                "model": "elder_force:item/guns/match_lock/default"
+            }
+            }
+            }
+        }
+        }
+        }
+        }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "item.guns.match_lock.shot": {
+    "sounds": [
+      "elder_force:items/matchlock/shot1",
+      "elder_force:items/matchlock/shot2",
+      "elder_force:items/matchlock/shot3"
+    ],
+    "subtitle": "subtitles.item.gun.shot.middle"
+  }
+}

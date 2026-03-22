@@ -1,0 +1,17 @@
+{
+    "attribute.name.ammo_capacity": "Ammo Capacity",
+    "attribute.name.compatible_ammunition": "Compatible",
+    "attribute.name.required_for_loading": "Required for Loading",
+    "death.attack.shot": "%1$s was shot",
+    "death.attack.shot.player": "%1$s was shot by %2$s",
+    "death.attack.shot.item": "%1$s was shot by %2$s using %3$s",
+    "item.match_lock": "Match Lock",
+    "item.wooden_cartridge": "Wooden Cartridge",
+    "item_lore.match_lock": "Light the fuse, then shoot immediately.",
+    "subtitles.item.gun.shot.lite":"Lite Gunshot",
+    "subtitles.item.gun.shot.middle":"Gunshot",
+    "subtitles.item.gun.shot.heavy":"Heavy Gunshot",
+    "notice.no_ammo_capacity": "It's full of bullets!",
+    "notice.no_ammo": "You don't have the compatible bullets!",
+    "empty":" "
+}

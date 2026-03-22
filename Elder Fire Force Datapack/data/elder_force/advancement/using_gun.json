@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "using":{
+            "trigger": "shot_crossbow",
+            "conditions": {
+                "item": {
+                    "items": "crossbow",
+                    "predicates": {
+                        "custom_data": {
+                            "item_tag": "elder_force_gun"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "elder_force:items/crossbow/used"
+    }
+}

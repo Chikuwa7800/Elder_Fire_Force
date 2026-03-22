@@ -1,0 +1,23 @@
+{
+    "function": "set_components",
+    "components": {
+        "custom_model_data": {
+            "flags": [
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "minecraft:custom_data": {
+          "item_tag": "elder_force_gun",
+          "ammo": 0,
+          "item_type": "match_lock",
+          "condition": "reload_1",
+          "reloading": false
+        }
+    }
+}

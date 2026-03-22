@@ -1,0 +1,2 @@
+execute unless predicate elder_force:reload_2 run item modify entity @s weapon.mainhand elder_force:match_lock/reload_1
+execute if predicate elder_force:reload_2 run function elder_force:items/wfoas/match_lock/reload/1_end
