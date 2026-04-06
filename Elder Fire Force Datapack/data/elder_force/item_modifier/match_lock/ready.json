@@ -18,7 +18,8 @@
           "item_type": "match_lock",
           "condition": "ready",
           "reloading": false,
-          "aiming": false
+          "aiming": false,
+          "failed": false
         },
         "charged_projectiles": [
             {

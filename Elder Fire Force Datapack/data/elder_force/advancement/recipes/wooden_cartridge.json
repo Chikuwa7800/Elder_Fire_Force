@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_iron_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gunpowder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gunpowder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elder_force:wooden_cartridge"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_the_match_lock_recipe": {
+      "conditions": {
+        "recipe_id": "elder_force:match_lock"
+      },
+      "trigger": "minecraft:crafter_recipe_crafted"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_iron_nugget",
+      "has_gunpowder",
+      "has_the_match_lock_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elder_force:wooden_cartridge"
+    ]
+  }
+}

@@ -11,3 +11,4 @@
 ## スニーク検知
  execute if predicate elder_force:player/sneak if predicate elder_force:ready unless predicate elder_force:aim run function elder_force:items/crossbow/aim
  execute unless predicate elder_force:player/sneak if predicate elder_force:ready if predicate elder_force:aim run function elder_force:items/crossbow/ready
+ 

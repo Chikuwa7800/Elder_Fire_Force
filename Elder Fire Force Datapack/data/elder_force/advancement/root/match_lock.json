@@ -1,0 +1,34 @@
+{
+    "criteria": {
+        "criteria":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "item_tag": "elder_force_gun",
+                                "item_type": "match_lock"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "translate": "advancements.adventure.match_lock.title"
+        },
+        "description": {
+            "translate": "advancements.adventure.match_lock.description"
+        },
+        "icon": {
+            "id": "warped_fungus_on_a_stick",
+            "components": {
+                "item_model": "elder_force:guns/match_lock"
+            }
+        }
+    },
+    "parent": "elder_force:root/first_gun"
+}

@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  X",
+    " ##",
+    "@@&"
+  ],
+  "key": {
+    "X": "minecraft:iron_nugget",
+    "#": "minecraft:iron_ingot",
+    "@": "#minecraft:logs",
+    "&": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "components": {
+        "minecraft:max_damage": 621,
+        "minecraft:item_model": "elder_force:guns/match_lock",
+        "minecraft:item_name": {
+          "translate": "item.eff.match_lock"
+        },
+        "minecraft:lore": [
+          {
+            "translate": "item_lore.eff.match_lock",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "translate": "empty"
+          },
+          {
+            "translate":"attribute.eff.name.ammo_capacity",
+            "color": "dark_green",
+            "italic": false,
+            "extra": [
+              {
+                "text": "1"
+              }
+            ]
+          },
+          {
+            "translate":"attribute.eff.name.compatible_ammunition",
+            "color": "dark_green",
+            "italic": false,
+            "extra": [
+              {
+                "translate": "item.eff.wooden_cartridge"
+              }
+            ]
+          },
+          {
+            "translate":"attribute.eff.name.required_for_loading",
+            "color": "dark_green",
+            "italic": false,
+            "extra": [
+              {
+                "translate": "item.minecraft.gunpowder"
+              }
+            ]
+          }
+        ],
+        "minecraft:swing_animation": {
+          "type": "none",
+          "duration": 1
+        },
+        "minecraft:custom_model_data": {
+          "flags": [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "minecraft:custom_data": {
+          "item_tag": "elder_force_gun",
+          "ammo": 0,
+          "item_type": "match_lock",
+          "condition": "no_ammo",
+          "reloading": false,
+          "aiming": false,
+          "failed": false
+        }
+    }
+  },
+  "category": "equipment"
+}

@@ -1,1 +1,2 @@
-kill @s
+## 矢削除
+ kill @s

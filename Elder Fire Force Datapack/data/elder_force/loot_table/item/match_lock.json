@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:chest",
+  "type": "minecraft:generic",
   "pools": [
     {
       "rolls": 1,
@@ -15,24 +15,51 @@
                 "minecraft:max_damage": 621,
                 "minecraft:item_model": "elder_force:guns/match_lock",
                 "minecraft:item_name": {
-                  "translate": "item.match_lock"
+                  "translate": "item.eff.match_lock"
                 },
                 "minecraft:lore": [
                   {
-                    "translate": "item_lore.match_lock",
+                    "translate": "item_lore.eff.match_lock",
                     "color": "gray",
                     "italic": false
+                  },
+                  {
+                    "translate": "empty"
+                  },
+                  {
+                    "translate":"attribute.eff.name.ammo_capacity",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "translate":"attribute.eff.name.compatible_ammunition",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "translate": "item.eff.wooden_cartridge"
+                      }
+                    ]
+                  },
+                  {
+                    "translate":"attribute.eff.name.required_for_loading",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "translate": "item.minecraft.gunpowder"
+                      }
+                    ]
                   }
                 ],
                 "minecraft:swing_animation": {
                   "type": "none",
                   "duration": 1
-                },
-                "minecraft:unbreakable": {},
-                "minecraft:tooltip_display": {
-                  "hidden_components": [
-                    "minecraft:unbreakable"
-                  ]
                 },
                 "minecraft:custom_model_data": {
                   "flags": [
@@ -50,7 +77,9 @@
                   "ammo": 0,
                   "item_type": "match_lock",
                   "condition": "no_ammo",
-                  "reloading": false
+                  "reloading": false,
+                  "aiming": false,
+                  "failed": false
                 }
               }
             }

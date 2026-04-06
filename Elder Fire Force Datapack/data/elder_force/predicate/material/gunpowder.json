@@ -1,0 +1,38 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity":"this",
+            "predicate": {
+                "slots": {
+                    "inventory.*": {
+                        "items": "gunpowder"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity":"this",
+            "predicate": {
+                "slots": {
+                    "hotbar.*": {
+                        "items": "gunpowder"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity":"this",
+            "predicate": {
+                "slots": {
+                    "weapon.offhand": {
+                        "items": "gunpowder"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,56 +1,25 @@
 {
-  "type": "minecraft:chest",
+  "type": "minecraft:generic",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:warped_fungus_on_a_stick",
+          "name": "minecraft:clock",
           "conditions": [],
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 621,
+                "minecraft:max_stack_size":96,
                 "minecraft:item_model": "elder_force:bullets/wooden_cartridge",
                 "minecraft:item_name": {
-                  "translate": "item.match_lock"
-                },
-                "minecraft:lore": [
-                  {
-                    "translate": "item_lore.match_lock",
-                    "color": "gray",
-                    "italic": false
-                  }
-                ],
-                "minecraft:swing_animation": {
-                  "type": "none",
-                  "duration": 1
-                },
-                "minecraft:unbreakable": {},
-                "minecraft:tooltip_display": {
-                  "hidden_components": [
-                    "minecraft:unbreakable"
-                  ]
-                },
-                "minecraft:custom_model_data": {
-                  "flags": [
-                    true,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
+                  "translate": "item.eff.wooden_cartridge"
                 },
                 "minecraft:custom_data": {
-                  "item_tag": "elder_force_gun",
-                  "ammo": 0,
-                  "item_type": "match_lock",
-                  "condition": "no_ammo",
-                  "reloading": false
+                  "item_tag": "elder_force_bullet",
+                  "item_type": "wooden_cartridge"
                 }
               }
             }

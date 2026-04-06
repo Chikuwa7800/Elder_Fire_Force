@@ -18,7 +18,8 @@
           "item_type": "match_lock",
           "condition": "no_ammo",
           "reloading": false,
-          "aiming": false
+          "aiming": false,
+          "failed": false
         },
         "!enchantments": {},
         "!piercing_weapon":{}

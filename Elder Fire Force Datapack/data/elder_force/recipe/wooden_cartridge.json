@@ -6,6 +6,19 @@
     "minecraft:gunpowder"
   ],
   "result": {
-    "id": "acacia_boat"
-  }
+    "id": "clock",
+    "components": {
+      "minecraft:max_stack_size":96,
+      "minecraft:item_model": "elder_force:bullets/wooden_cartridge",
+      "minecraft:item_name": {
+        "translate": "item.eff.wooden_cartridge"
+      },
+      "minecraft:custom_data": {
+        "item_tag": "elder_force_bullet",
+        "item_type": "wooden_cartridge"
+      }
+    },
+    "count": 2
+  },
+  "category": "equipment"
 }

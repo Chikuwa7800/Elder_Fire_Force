@@ -18,7 +18,8 @@
           "item_type": "match_lock",
           "condition": "reload_1",
           "reloading": true,
-          "aiming": false
+          "aiming": false,
+          "failed": false
         }
     }
 }

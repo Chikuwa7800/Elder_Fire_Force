@@ -17,7 +17,9 @@
           "ammo": 0,
           "item_type": "match_lock",
           "condition": "reload_1",
-          "reloading": false
+          "reloading": false,
+          "aiming": false,
+          "failed": false
         }
     }
 }

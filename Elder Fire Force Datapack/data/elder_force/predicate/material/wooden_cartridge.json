@@ -1,0 +1,53 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity":"this",
+            "predicate": {
+                "slots": {
+                    "inventory.*": {
+                        "predicates": {
+                            "custom_data":{
+                                "item_tag": "elder_force_bullet",
+                                "item_type": "wooden_cartridge"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity":"this",
+            "predicate": {
+                "slots": {
+                    "hotbar.*": {
+                        "predicates": {
+                            "custom_data":{
+                                "item_tag": "elder_force_bullet",
+                                "item_type": "wooden_cartridge"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity":"this",
+            "predicate": {
+                "slots": {
+                    "weapon.offhand": {
+                        "predicates": {
+                            "custom_data":{
+                                "item_tag": "elder_force_bullet",
+                                "item_type": "wooden_cartridge"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -17,6 +17,14 @@
     "mainhand"
   ],
   "effects": {
+    "item_damage":[
+      {
+        "effect": {
+          "type": "multiply",
+          "factor": 0
+        }
+      }
+    ],
     "projectile_spawned":[
       {
         "effect": {
