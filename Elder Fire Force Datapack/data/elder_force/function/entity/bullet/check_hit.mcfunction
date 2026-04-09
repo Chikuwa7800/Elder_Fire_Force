@@ -1,0 +1,2 @@
+execute unless block ~ ~ ~ #elder_force:no_collision run function elder_force:entity/bullet/hit_to_ground
+execute positioned ~-0.001 ~-0.001 ~-0.001 as @e[dx=0,dy=0,dz=0,type=!#elder_force:cannot_hurt_entities,tag=!eff.normal_bullet] positioned ~-0.998 ~-0.998 ~-0.998 if entity @s[dx=0,dy=0,dz=0] unless score @s eff.entity_id = @n[tag=eff.normal_bullet] eff.entity_id positioned ~0.999 ~0.999 ~0.999 run function elder_force:entity/bullet/hit
