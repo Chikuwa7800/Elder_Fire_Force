@@ -39,6 +39,18 @@
         "piercing_weapon": {
             "deals_knockback": false,
             "dismounts": false
-        }
+        },
+        "attribute_modifiers": [
+            {
+                "id": "temp",
+                "type": "minecraft:movement_speed",
+                "amount": 0.75,
+                "slot": "mainhand",
+                "operation": "add_multiplied_base",
+                "display": {
+                    "type": "hidden"
+                }
+            }
+        ]
     }
 }
