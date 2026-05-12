@@ -25,5 +25,6 @@
     "notice.eff.no_ammo_capacity": "弾丸は満タンだ！",
     "notice.eff.no_ammo": "装弾可能な弾を持っていない！",
     "notice.eff.no_required_item": "リロードに必要な物がない！",
+    "notice.eff.break": "アイテムは壊れている！",
     "empty":" "
 }

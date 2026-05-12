@@ -2,3 +2,5 @@
  # 火縄銃を持っているなら
   execute if predicate elder_force:gun/match_lock run function elder_force:items/wfoas/match_lock/reload/main_1
   
+ # バズーカを持っているなら
+  execute if predicate elder_force:gun/bazooka run function elder_force:items/wfoas/bazooka/reload/main

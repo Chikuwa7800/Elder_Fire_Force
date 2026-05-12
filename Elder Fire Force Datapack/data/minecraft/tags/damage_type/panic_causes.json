@@ -1,5 +1,7 @@
 {
     "values": [
-      "elder_force:bullet"
+      "elder_force:bullet",
+      "elder_force:missile",
+      "elder_force:explotion"
     ]
 }

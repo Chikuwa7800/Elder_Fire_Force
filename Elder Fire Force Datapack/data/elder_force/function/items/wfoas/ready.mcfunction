@@ -4,3 +4,5 @@
  # 火縄銃
   execute if predicate elder_force:gun/match_lock positioned ~ ~1100 ~ as @n[type=item_display,tag=eff.change_item] run function elder_force:items/wfoas/match_lock/ready
   
+ # バズーカ
+  execute if predicate elder_force:gun/bazooka positioned ~ ~1100 ~ as @n[type=item_display,tag=eff.change_item] run function elder_force:items/wfoas/bazooka/ready

@@ -12,14 +12,14 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 621,
-                "minecraft:item_model": "elder_force:guns/match_lock",
+                "minecraft:max_damage": 1002,
+                "minecraft:item_model": "elder_force:guns/bazooka",
                 "minecraft:item_name": {
-                  "translate": "item.eff.match_lock"
+                "translate": "item.eff.bazooka"
                 },
                 "minecraft:lore": [
                   {
-                    "translate": "item_lore.eff.match_lock",
+                    "translate": "item_lore.eff.bazooka",
                     "color": "gray",
                     "italic": false
                   },
@@ -42,25 +42,11 @@
                     "italic": false,
                     "extra": [
                       {
-                        "translate": "item.eff.wooden_cartridge"
-                      }
-                    ]
-                  },
-                  {
-                    "translate":"attribute.eff.name.required_for_loading",
-                    "color": "dark_green",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "translate": "item.minecraft.gunpowder"
+                        "translate": "item.eff.rocket_ammo"
                       }
                     ]
                   }
                 ],
-                "minecraft:swing_animation": {
-                  "type": "none",
-                  "duration": 1
-                },
                 "minecraft:custom_model_data": {
                   "flags": [
                     true,
@@ -75,7 +61,7 @@
                 "minecraft:custom_data": {
                   "item_tag": "elder_force_gun",
                   "ammo": 0,
-                  "item_type": "match_lock",
+                  "item_type": "bazooka",
                   "condition": "no_ammo",
                   "reloading": false,
                   "aiming": false,

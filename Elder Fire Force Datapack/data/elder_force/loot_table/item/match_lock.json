@@ -57,10 +57,6 @@
                     ]
                   }
                 ],
-                "minecraft:swing_animation": {
-                  "type": "none",
-                  "duration": 1
-                },
                 "minecraft:custom_model_data": {
                   "flags": [
                     true,

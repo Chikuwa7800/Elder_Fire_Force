@@ -7,6 +7,6 @@
  # 移す
   execute positioned ~ ~-1100 ~ run item replace entity @p weapon.mainhand from entity @s contents
  # 音
-  playsound block.iron_trapdoor.open player @a ~ ~-1100 ~ 0.5 1
+  playsound block.iron_trapdoor.open player @a ~ ~-1100 ~ 0.5 0.5
  # 終了
   kill @s

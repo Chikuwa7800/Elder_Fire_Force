@@ -23,6 +23,8 @@
    item replace entity @s weapon.mainhand from entity @n[type=item_display,tag=eff.damage_add] contents
 
  # 後始末
+  # アイテムの耐久値が0なら壊す
+   execute if score @s eff.gun.damage matches 0 run function elder_force:items/break
   # 代替エンティティキル
    kill @n[type=item_display,tag=eff.damage_add]
   # 誤爆が怖いので一応スコアリセット
