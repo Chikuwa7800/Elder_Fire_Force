@@ -19,12 +19,12 @@
    item replace entity @n[type=item_display,tag=eff.damage_add] contents from entity @s weapon.mainhand
   # 代替エンティティにダメージ代入
    execute store result entity @n[type=item_display,tag=eff.damage_add] item.components."minecraft:damage" int 1 run scoreboard players get @s eff.gun.damage
+  # アイテムの耐久値が0なら壊す
+   execute if score @s eff.gun.damage matches 0 run data modify entity @n[type=item_display,tag=eff.damage_add] item.components."minecraft:custom_data"."broken" set value true
   # 実行者にアイテムを移す
    item replace entity @s weapon.mainhand from entity @n[type=item_display,tag=eff.damage_add] contents
 
  # 後始末
-  # アイテムの耐久値が0なら壊す
-   execute if score @s eff.gun.damage matches 0 run function elder_force:items/break
   # 代替エンティティキル
    kill @n[type=item_display,tag=eff.damage_add]
   # 誤爆が怖いので一応スコアリセット
