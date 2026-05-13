@@ -7,18 +7,16 @@
                 false,
                 false,
                 false,
-                false,
-                true,
-                false
+                true
             ]
         },
         "minecraft:custom_data": {
           "item_tag": "elder_force_gun",
-          "ammo": 0,
-          "item_type": "match_lock",
-          "condition": "reload_1",
-          "reloading": true,
-          "aiming": false,
+          "ammo": 1,
+          "item_type": "bazooka",
+          "condition": "ready",
+          "reloading": false,
+          "aiming": true,
           "failed": false
         }
     }

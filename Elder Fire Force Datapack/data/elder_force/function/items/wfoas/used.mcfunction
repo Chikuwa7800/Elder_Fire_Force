@@ -1,4 +1,8 @@
 ## 使用検知
+ # 壊れているのに壊れていないなら
+  execute if predicate elder_force:broken run function elder_force:items/wfoas/repair
+ # 壊れているなら
+  execute if predicate elder_force:broken run return run function elder_force:items/broken
  # 残弾0
   execute if predicate elder_force:ammo_0 unless predicate elder_force:reloading run function elder_force:items/wfoas/no_ammo
  # 発射準備

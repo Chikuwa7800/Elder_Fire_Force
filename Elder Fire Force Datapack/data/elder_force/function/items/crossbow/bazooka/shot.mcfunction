@@ -4,7 +4,7 @@
   execute anchored eyes positioned ^ ^ ^0.5 run particle large_smoke ~ ~-0.125 ~
   execute anchored eyes positioned ^ ^ ^-1 run particle campfire_cosy_smoke ~ ~-0.125 ~ 0.5 0.5 0.5 0 10
  # 弾射出
-  execute anchored eyes positioned ^ ^ ^0.1 run function elder_force:entity/bullet/summon {"speed":5,"damage":7,"head_damage":12,"gravity":63,"tick":"elder_force:items/crossbow/bazooka/tick","hit":"elder_force:entity/explotion/start","delete_time":83,"model":"elder_force:bullets/rocket_ammo"}
+  execute anchored eyes positioned ^ ^ ^0.1 run function elder_force:entity/bullet/summon {"speed":3,"damage":7,"head_damage":12,"gravity":63,"tick":"elder_force:items/crossbow/bazooka/tick","hit":"elder_force:items/crossbow/bazooka/explotion","delete_time":83,"model":"elder_force:bullets/rocket_ammo"}
  # 反動
   effect give @s slowness 1 1
  # アイテムにダメージを与える

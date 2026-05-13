@@ -6,11 +6,9 @@
                 false,
                 true,
                 false,
+                false,
                 false
             ]
-        },
-        "swing_animation":{
-            "type": "none"
         },
         "minecraft:custom_data": {
           "item_tag": "elder_force_gun",

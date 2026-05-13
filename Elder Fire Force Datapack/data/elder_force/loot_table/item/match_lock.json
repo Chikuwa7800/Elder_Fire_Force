@@ -68,6 +68,10 @@
                     false
                   ]
                 },
+                "swing_animation":{
+                  "type": "none",
+                  "duration": 1
+                },
                 "minecraft:custom_data": {
                   "item_tag": "elder_force_gun",
                   "ammo": 0,

@@ -1,6 +1,7 @@
 ## 射撃
  # 演出
   playsound elder_force:item.guns.match_lock.shot player @a ~ ~ ~ 3 1
+  playsound elder_force:item.guns.match_lock.shot.far player @a[distance=20..] ~ ~ ~ 13 1
   execute anchored eyes positioned ^ ^ ^0.5 run particle electric_spark ~ ~-0.25 ~
   execute anchored eyes positioned ^ ^ ^0.5 run particle minecraft:white_smoke ~ ~-0.25 ~
  # 弾射出

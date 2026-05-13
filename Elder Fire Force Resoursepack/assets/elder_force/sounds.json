@@ -6,5 +6,41 @@
       "elder_force:items/matchlock/shot3"
     ],
     "subtitle": "subtitles.item.gun.shot.middle"
+  },
+  "item.guns.match_lock.shot.far":{
+    "sounds": [
+      "elder_force:items/matchlock/far"
+    ],
+    "subtitle": "subtitles.item.gun.shot.heavy"
+  },
+  "item.guns.bazooka.shot":{
+    "sounds": [
+      "elder_force:items/bazooka/shot"
+    ],
+    "subtitle": "subtitles.item.gun.shot.heavy"
+  },
+  "entity.missile.fly":{
+    "sounds": [
+      "elder_force:items/bazooka/fly"
+    ],
+    "subtitle": "subtitles.item.gun.missile"
+  },
+  "entity.missile.explode":{
+    "sounds": [
+      "elder_force:items/bazooka/explode"
+    ],
+    "subtitle": "subtitles.entity.generic.explode"
+  },
+  "entity.missile.explode_far":{
+    "sounds": [
+      "elder_force:items/bazooka/explode_far"
+    ],
+    "subtitle": "subtitles.entity.generic.explode"
+  },
+  "entity.missile.explode_echo":{
+    "sounds": [
+      "elder_force:items/bazooka/echo"
+    ],
+    "subtitle": "subtitles.entity.generic.explode"
   }
 }

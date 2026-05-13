@@ -6,11 +6,9 @@
                 false,
                 false,
                 false,
-                true
+                true,
+                false
             ]
-        },
-        "swing_animation":{
-            "type": "none"
         },
         "minecraft:custom_data": {
           "item_tag": "elder_force_gun",
@@ -18,6 +16,7 @@
           "item_type": "bazooka",
           "condition": "ready",
           "reloading": false,
+          "aiming": false,
           "failed": false
         },
         "charged_projectiles": [
@@ -44,7 +43,7 @@
             {
                 "id": "temp",
                 "type": "minecraft:movement_speed",
-                "amount": 0.75,
+                "amount": -0.25,
                 "slot": "mainhand",
                 "operation": "add_multiplied_base",
                 "display": {

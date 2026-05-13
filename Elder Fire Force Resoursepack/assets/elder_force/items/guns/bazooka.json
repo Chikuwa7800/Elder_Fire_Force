@@ -32,8 +32,17 @@
                 "model": "elder_force:item/guns/bazooka/ready"
                 },
             "on_false": {
+                "type": "condition",
+            "property": "custom_model_data",
+            "index": 4,
+            "on_true": {
+                "type": "model",
+                "model": "elder_force:item/guns/bazooka/aim"
+                },
+            "on_false": {
                 "type": "model",
                 "model": "elder_force:item/guns/bazooka/no_ammo"
+                }
                 }
                 }
             }

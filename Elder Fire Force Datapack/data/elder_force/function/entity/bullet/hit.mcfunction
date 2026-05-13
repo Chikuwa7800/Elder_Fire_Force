@@ -1,4 +1,6 @@
 ## エンティティヒット
+ # tag
+  tag @s add eff.bullet.hitted
  # 当たった地点にマーカー配置
   summon marker ~ ~ ~ {Tags:["eff.bullet.hit"]}
  # 判定
