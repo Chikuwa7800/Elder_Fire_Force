@@ -6,7 +6,7 @@
  # 弾射出
   execute anchored eyes positioned ^ ^ ^0.1 run function elder_force:entity/bullet/summon {"speed":3,"damage":7,"head_damage":12,"gravity":63,"tick":"elder_force:items/crossbow/bazooka/tick","hit":"elder_force:items/crossbow/bazooka/explotion","delete_time":83,"model":"elder_force:bullets/rocket_ammo"}
  # 反動
-  effect give @s slowness 1 1
+  effect give @s slowness 1 1 true
  # アイテムにダメージを与える
   execute if entity @s[gamemode=!creative,gamemode=!spectator] run function elder_force:items/change_item_damage {"amount": 1}
  # アイテム入れ替え
