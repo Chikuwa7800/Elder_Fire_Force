@@ -1,6 +1,8 @@
 ## エンティティヒット
+ # ヒット処理
+  $execute as @n[tag=eff.normal_bullet] run function $(hit)
  # tag
-  tag @s add eff.bullet.hitted
+  tag @n[tag=eff.normal_bullet] add eff.bullet.hitted
  # 当たった地点にマーカー配置
   summon marker ~ ~ ~ {Tags:["eff.bullet.hit"]}
  # 判定
