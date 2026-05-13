@@ -2,12 +2,9 @@
  # 毎ティック実行
   scoreboard players add @s eff.reload_tick 1
  # 音とか
-  execute if score @s eff.reload_tick matches 11 run playsound item.armor.equip_generic
-  execute if score @s eff.reload_tick matches 21 run playsound block.iron.step
-  execute if score @s eff.reload_tick matches 31 run playsound block.sand.place
-  execute if score @s eff.reload_tick matches 41 run playsound block.iron.step
-  execute if score @s eff.reload_tick matches 46 run playsound item.armor.equip_generic
-  execute if score @s eff.reload_tick matches 46 run playsound item.flintandsteel.use
-  execute if score @s eff.reload_tick matches 46 run playsound block.fire.ambient
+  execute if score @s eff.reload_tick matches 11 run playsound item.armor.equip_elytra player @a ~ ~ ~ 0.5 0.75
+  execute if score @s eff.reload_tick matches 21 run playsound block.grindstone.use player @a ~ ~ ~ 0.5 2
+  execute if score @s eff.reload_tick matches 27 run playsound block.iron.place player @a ~ ~ ~ 0.75 1
+  execute if score @s eff.reload_tick matches 36 run playsound item.armor.equip_elytra player @a ~ ~ ~ 0.5 1.25
  # リロード終了
-  execute if score @s eff.reload_tick matches 46 run function elder_force:items/wfoas/bazooka/reload/end
+  execute if score @s eff.reload_tick matches 36 run function elder_force:items/wfoas/bazooka/reload/end
