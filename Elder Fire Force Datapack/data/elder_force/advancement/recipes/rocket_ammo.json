@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_iron_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gunpowder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gunpowder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elder_force:rocket_ammo"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_the_bazooka_recipe": {
+      "conditions": {
+        "recipe_id": "elder_force:bazooka"
+      },
+      "trigger": "minecraft:crafter_recipe_crafted"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gunpowder",
+      "has_the_bazooka_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elder_force:rocket_ammo"
+    ]
+  }
+}
