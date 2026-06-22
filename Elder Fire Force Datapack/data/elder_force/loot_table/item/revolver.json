@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_damage": 482,
+                "minecraft:item_model": "elder_force:guns/revolver",
+                "minecraft:item_name": {
+                  "translate": "item.eff.revolver"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item_lore.eff.revolver",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "empty"
+                  },
+                  {
+                    "translate":"attribute.eff.name.ammo_capacity",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "6"
+                      }
+                    ]
+                  },
+                  {
+                    "translate":"attribute.eff.name.compatible_ammunition",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "translate": "item.eff.wooden_cartridge"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:custom_model_data": {
+                  "flags": [
+                    true,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                },
+                "swing_animation":{
+                  "type": "none",
+                  "duration": 1
+                },
+                "minecraft:custom_data": {
+                  "item_tag": "elder_force_gun",
+                  "item_type": "revolver",
+                  "knocked": false,
+                  "reloading": false,
+                  "aiming": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

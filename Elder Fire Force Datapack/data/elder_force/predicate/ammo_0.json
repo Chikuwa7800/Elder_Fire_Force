@@ -5,8 +5,16 @@
         "slots": {
             "weapon.mainhand": {
                 "predicates": {
-                    "custom_data":{
-                        "ammo": 0
+                    "attribute_modifiers": {
+                        "modifiers": {
+                            "contains": [
+                                {
+                                    "amount": 0,
+                                    "attribute": "armor_toughness",
+                                    "slot": "saddle"
+                                }
+                            ]
+                        }
                     }
                 }
             }

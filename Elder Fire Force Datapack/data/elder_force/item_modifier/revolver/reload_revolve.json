@@ -3,24 +3,23 @@
     "components": {
         "custom_model_data": {
             "flags": [
-                true,
                 false,
                 false,
                 false,
-                false
+                false,
+                false,
+                false,
+                false,
+                true
             ]
         },
         "minecraft:custom_data": {
           "item_tag": "elder_force_gun",
-          "ammo": 0,
-          "item_type": "bazooka",
-          "condition": "no_ammo",
-          "reloading": false,
+          "item_type": "revolver",
+          "condition": "reload_1",
+          "reloading": true,
           "aiming": false,
           "failed": false
-        },
-        "!enchantments": {},
-        "!piercing_weapon":{},
-        "!attribute_modifiers": {}
+        }
     }
 }

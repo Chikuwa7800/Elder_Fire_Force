@@ -1,3 +1,3 @@
-## クロスボウを持っている時(現在未使用)
- # 
-  
+## クロスボウを持っている時
+ # バズーカなら減速
+  execute if predicate elder_force:gun/bazooka run effect give @s slowness 1 0 true

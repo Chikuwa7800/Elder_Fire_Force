@@ -1,4 +1,7 @@
 ## リロード開始
+ # すでに弾が入っているならキャンセル
+  execute if predicate elder_force:ammo_1 run return fail
+ 
  # 中断していなければ最初から
   execute unless predicate elder_force:reload_2 unless predicate elder_force:reload_1 run return run function elder_force:items/wfoas/match_lock/reload_1_start
 

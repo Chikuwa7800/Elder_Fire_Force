@@ -1,0 +1,23 @@
+{
+    "condition": "entity_properties",
+    "entity":"this",
+    "predicate": {
+        "slots": {
+            "weapon.mainhand": {
+                "predicates": {
+                    "attribute_modifiers": {
+                        "modifiers": {
+                            "contains": [
+                                {
+                                    "amount": 1,
+                                    "attribute": "armor_toughness",
+                                    "slot": "saddle"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

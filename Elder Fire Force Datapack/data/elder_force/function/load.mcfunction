@@ -22,3 +22,7 @@
  # 10
   scoreboard objectives add eff.10 dummy
   scoreboard players set $eff.amount eff.10 10
+ # 残弾
+  scoreboard objectives add eff.ammo dummy
+ # 元の残弾
+  scoreboard objectives add eff.previous_ammo dummy

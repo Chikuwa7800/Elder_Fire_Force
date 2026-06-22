@@ -76,7 +76,6 @@
         },
         "minecraft:custom_data": {
           "item_tag": "elder_force_gun",
-          "ammo": 0,
           "item_type": "match_lock",
           "condition": "no_ammo",
           "reloading": false,

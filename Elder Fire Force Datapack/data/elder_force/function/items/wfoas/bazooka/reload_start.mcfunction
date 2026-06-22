@@ -1,4 +1,6 @@
 ## リロード開始
+ # すでに弾が入っているならキャンセル
+  execute if predicate elder_force:ammo_1 run return fail
  # 必要なものを持っているか
   execute if entity @s[gamemode=!creative,gamemode=!spectator] unless predicate elder_force:material/rocket_ammo run return run function elder_force:items/wfoas/bazooka/reload/failed
  # ロケット弾没収

@@ -1,0 +1,1 @@
+playsound ui.button.click player @a ~ ~ ~ 1 1.5

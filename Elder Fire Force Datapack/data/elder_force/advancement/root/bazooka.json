@@ -1,0 +1,34 @@
+{
+    "criteria": {
+        "criteria":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "item_tag": "elder_force_gun",
+                                "item_type": "bazooka"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "translate": "advancements.adventure.bazooka.title"
+        },
+        "description": {
+            "translate": "advancements.adventure.bazooka.description"
+        },
+        "icon": {
+            "id": "warped_fungus_on_a_stick",
+            "components": {
+                "item_model": "elder_force:guns/bazooka"
+            }
+        }
+    },
+    "parent": "elder_force:root/first_gun"
+}

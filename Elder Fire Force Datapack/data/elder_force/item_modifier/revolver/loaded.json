@@ -14,10 +14,10 @@
         },
         "minecraft:custom_data": {
           "item_tag": "elder_force_gun",
-          "ammo": 0,
-          "item_type": "match_lock",
-          "condition": "no_ammo",
+          "item_type": "revolver",
+          "condition": "loaded",
           "reloading": false,
+          "knocked": false,
           "aiming": false,
           "failed": false
         },

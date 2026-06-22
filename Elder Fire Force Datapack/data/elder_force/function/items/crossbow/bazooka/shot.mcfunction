@@ -10,6 +10,8 @@
  # アイテムにダメージを与える
   execute if entity @s[gamemode=!creative,gamemode=!spectator] run function elder_force:items/change_item_damage {"amount": 1}
  # アイテム入れ替え
+  item modify entity @s weapon.mainhand elder_force:ammo/0
   summon item_display ~ ~1100 ~ {item:{id:"minecraft:acacia_button"},transformation:{scale:[0,0,0],left_rotation:[0,0,0,0],right_rotation:[0,0,0,0],translation:[0,0,0]},Tags:["eff.change_item"]}
   execute positioned ~ ~1100 ~ run item replace entity @n[type=item_display,tag=eff.change_item] contents from entity @s weapon.mainhand
   execute positioned ~ ~1100 ~ as @n[type=item_display,tag=eff.change_item] run function elder_force:items/crossbow/bazooka/change_item
+  

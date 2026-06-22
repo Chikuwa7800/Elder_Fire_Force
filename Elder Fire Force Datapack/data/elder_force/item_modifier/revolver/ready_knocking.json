@@ -1,0 +1,45 @@
+{
+    "function": "set_components",
+    "components": {
+        "custom_model_data": {
+            "flags": [
+                false,
+                false,
+                true,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "minecraft:custom_data": {
+          "item_tag": "elder_force_gun",
+          "item_type": "revolver",
+          "condition": "ready",
+          "reloading": false,
+          "knocked": true,
+          "aiming": false,
+          "failed": false
+        },
+        "charged_projectiles": [
+            {
+                "id": "arrow"
+            }
+        ],
+        "minecraft:tooltip_display": {
+          "hidden_components": [
+          "minecraft:unbreakable",
+          "charged_projectiles",
+          "enchantments"
+          ]
+        },
+        "enchantments": {
+            "elder_force:gun": 1
+        },
+        "enchantment_glint_override": false,
+        "piercing_weapon": {
+            "deals_knockback": false,
+            "dismounts": false
+        }
+    }
+}

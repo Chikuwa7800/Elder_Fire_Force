@@ -1,0 +1,17 @@
+{
+    "function": "set_components",
+    "components": {
+        "attribute_modifiers": [
+            {
+                "amount": 0,
+                "id": "minecraft:temp",
+                "type": "armor_toughness",
+                "slot": "saddle",
+                "operation": "add_value",
+                "display": {
+                    "type": "hidden"
+                }
+            }
+        ]
+    }
+}

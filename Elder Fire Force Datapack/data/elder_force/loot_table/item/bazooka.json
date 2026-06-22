@@ -61,9 +61,7 @@
                 },
                 "minecraft:custom_data": {
                   "item_tag": "elder_force_gun",
-                  "ammo": 0,
                   "item_type": "bazooka",
-                  "condition": "no_ammo",
                   "reloading": false,
                   "aiming": false,
                   "failed": false

@@ -1,0 +1,25 @@
+{
+    "function": "set_components",
+    "components": {
+        "custom_model_data": {
+            "flags": [
+                false,
+                false,
+                false,
+                false,
+                true,
+                false,
+                false
+            ]
+        },
+        "minecraft:custom_data": {
+          "item_tag": "elder_force_gun",
+          "item_type": "revolver",
+          "condition": "ready",
+          "reloading": false,
+          "knocked": true,
+          "aiming": true,
+          "failed": false
+        }
+    }
+}
